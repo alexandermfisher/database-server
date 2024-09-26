@@ -1,0 +1,79 @@
+package edu.uob.tokenizer;
+
+public enum TokenType {
+    // Command Keywords:
+    USE_KEYWORD("USE"),
+    CREATE_KEYWORD("CREATE"),
+    DROP_KEYWORD("DROP"),
+    ALTER_KEYWORD("ALTER"),
+    INSERT_KEYWORD("INSERT"),
+    SELECT_KEYWORD("SELECT"),
+    UPDATE_KEYWORD("UPDATE"),
+    DELETE_KEYWORD("DELETE"),
+    JOIN_KEYWORD("JOIN"),
+
+    // Language Keywords:
+    DATABASE_KEYWORD("DATABASE"),
+    TABLE_KEYWORD("TABLE"),
+    INTO_KEYWORD("INTO"),
+    VALUES_KEYWORD("VALUES"),
+    FROM_KEYWORD("FROM"),
+    WHERE_KEYWORD("WHERE"),
+    SET_KEYWORD("SET"),
+    AND_KEYWORD("AND"),
+    OR_KEYWORD("OR"),
+    ADD_KEYWORD("ADD"),
+    ASSIGN_KEYWORD("ASSIGN"),
+    ON_KEYWORD("ON"),
+
+
+
+    // Literals:
+    INTEGER_LITERAL("INTEGER_LITERAL"),
+    FLOAT_LITERAL("FLOAT_LITERAL"),
+    BOOLEAN_LITERAL("BOOLEAN_LITERAL"),
+    STRING_LITERAL("STRING_LITERAL"),
+    NULL_LITERAL("NULL_LITERAL"),
+
+    // Identifiers:
+    IDENTIFIER("IDENTIFIER"),
+
+
+    // Comparison operators
+    EQUALS_OPERATOR("EQUALS_OPERATOR"),
+    NOT_EQUALS_OPERATOR("NOT_EQUALS_OPERATOR"),
+    LESS_THAN_OPERATOR("LESS_THAN_OPERATOR"),
+    LESS_THAN_OR_EQUAL_OPERATOR("LESS_THAN_OR_EQUAL_OPERATOR"),
+    GREATER_THAN_OPERATOR("GREATER_THAN_OPERATOR"),
+    GREATER_THAN_OR_EQUAL_OPERATOR("GREATER_THAN_OR_EQUAL_OPERATOR"),
+    LIKE_OPERATOR("LIKE_OPERATOR"),
+
+
+
+    // Delimiters and Punctuation:
+    SEMICOLON("SEMICOLON"),
+    COMMA("COMMA"),
+    LEFT_PAREN("LEFT_PAREN"),
+    RIGHT_PAREN("RIGHT_PAREN"),
+    LEFT_BRACE("LEFT_BRACE"),
+    RIGHT_BRACE("RIGHT_BRACE"),
+    LEFT_BRACKET("LEFT_BRACKET"),
+    RIGHT_BRACKET("RIGHT_BRACKET"),
+    ASTRIX("*"),
+    EOF("EOF"),
+    INVALID_TOKEN("INVALID_TOKEN");
+
+    private final String tokenType;
+
+    TokenType(String tokenType) {
+        this.tokenType = tokenType;
+    }
+    public String getTokenType() {
+        return tokenType;
+    }
+}
+
+
+
+
+
