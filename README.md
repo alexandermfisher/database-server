@@ -1,4 +1,4 @@
-# CW-DB: A Simplified SQL Database Server
+# A Simplified SQL Database Server
 
 This project implements a simplified SQL database server, allowing users to execute queries using a custom query language. The server is built from scratch using Java, Maven, and JUnit, with persistent data storage handled via the file system.
 
