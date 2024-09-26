@@ -100,8 +100,8 @@ Here are a few examples of the supported query types:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/alexandermfisher/database-server.git
+    cd database-server
     ```
 
 2. **Build the Project**:
