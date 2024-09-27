@@ -137,7 +137,7 @@ Possible future improvements include:
 
 ## Acknowledgments
 
-This project is an assignment from the **Object-Oriented Programming with Java** course at the University of Bristol (2022), taught by **Dr. Simon Lock** and **Dr Sion Hannuna**. The project was built using a base Maven project template provided by the course.
+This project is an assignment from the **Object-Oriented Programming with Java** course at the University of Bristol (2023/24), taught by **Dr. Simon Lock** and **Dr Sion Hannuna**. The project was built using a base Maven project template provided by the course.
 
 Special thanks to Simon for guidance and support throughout the project. You can find more about his work and contributions on his [GitHub profile](https://github.com/drslock).
 
